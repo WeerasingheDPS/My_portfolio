@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --primary-color:#EDF2FC;
+    --secondary-color:#212121;
+    /* --prmary-color:#212121;
+    --secondary-color:#EDF2FC; */
+    
+}
+
+.dark-theme{
+    --primary-color:#212121;
+    --secondary-color:#EDF2FC;
+}
+nav img{
+    
+    margin: 0;
+
+}
+
+.main{
+    background-color: var(--primary-color);
+    width: 100%;
+    /* height:100vh; */
+    position: relative;
+    
+}
+
+nav{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding:10px;
+  width:90%;       
+}
+nav ul{
+    width:100%;
+    text-align:right;
+
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding:20px 25px;
+
+}
+nav ul li a{
+    width:100%;
+    color:var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:#ff4321;
+}
+
+.logo{
+    height:18vh;
+}
+
+.name{
+    margin-top: 20px;
+    font-size:70px;
+    color:var(--secondary-color);
+
+    
+}
+
+.mypic{
+    width:45%;
+    height:80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+   
+}
+.pic{
+       
+}
+
+.mypic img{
+    height: 100%;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.mypic:hover .pic{
+   
+  bottom:40px;
+}
+
+.mypic:hover .dps{
+   
+    left:54%;
+  }
+
+
+
+.main-con{
+    display: flex;
+    justify-content: space-between;
+    margin-left:8%;
+    margin-top: 10%;
+}
+
+.namecon{
+    width:50%;
+}
+
+span{
+    color:#ff4321;
+}
+
+p{
+    padding:25px 0;
+    color:var(--secondary-color);
+}
+
+.info a{
+    padding:5px 8px;
+    text-decoration: none;
+    background:var(--secondary-color);
+    color:var(--primary-color);
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.socialmedia{
+    margin-top: 80px;
+}
+
+.socialmedia a{
+    color:var(--secondary-color);
+    font-size: 27px;
+    padding-right:10px;
+}
+
+.socialmedia a:hover{
+    color:#ff4321;
+}
+
+#icon{
+    width:30px;
+    height:20px;
+    cursor: pointer;
+    padding:20px 0;
+    /* color: red ; */
+    /* var(--secondary-color); */
+
+}
+
